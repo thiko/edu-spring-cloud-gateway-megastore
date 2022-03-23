@@ -31,6 +31,6 @@ Start each microservice by using `mvn spring-boot:run`.
 ## How to test it?
 Using curl:
 - Query prices through our gateway: `curl http://localhost:8080/super-prices | jq`
-- Query shopping card through our gateway: `curl -H "x-customer-class: rich"  http://localhost:8080/shoppingcard | jq`
+- Query shopping cart through our gateway: `curl -H "x-customer-class: rich"  http://localhost:8080/shoppingcard | jq`
 
 (jq is optional but recommended)
